@@ -7,6 +7,7 @@ function ShowFact1() {
 	document.getElementById("main").style.backgroundColor = "#FFC8DD";
 	document.getElementById("factdisplay").style.borderColor = "#BDE0FE";
 	document.getElementById("main").style.borderColor = "#A2D2FF";
+	document.getElementById("buttons").style.borderColor = "#FFAFCC";
 	document.getElementById("b").style.color = "black";
 	document.getElementById("c").style.color = "black";
 	document.getElementById("d").style.color = "black";
@@ -17,6 +18,7 @@ var fact2 = document.querySelector('#buttons').b.addEventListener("click",ShowFa
 function ShowFact2() {
 	document.getElementById("factdisplay").innerHTML = "Your heart stops for a millisecond when you sneeze.";
 	document.getElementById("b").style.color = "Blue";
+	document.getElementById("buttons").style.borderColor = "#A8DADC";
 	document.getElementById("main").style.backgroundColor = "#8D99AE";
 	document.getElementById("factdisplay").style.borderColor = "#EF233C";
 	document.getElementById("main").style.borderColor = "#D90429";
@@ -30,6 +32,7 @@ var fact3 = document.querySelector('#buttons').c.addEventListener("click",ShowFa
 function ShowFact3() {
 	document.getElementById("factdisplay").innerHTML = "Your nostrils work one at a time.";
 	document.getElementById("c").style.color = "#F72585";
+	document.getElementById("buttons").style.borderColor = "#C8B6FF";
 	document.getElementById("main").style.backgroundColor = "#FFDDD2";
 	document.getElementById("factdisplay").style.borderColor = "#4361EE";
 	document.getElementById("main").style.borderColor = "#4CC9F0";
@@ -43,6 +46,7 @@ var fact4 = document.querySelector('#buttons').d.addEventListener("click",ShowFa
 function ShowFact4() {
 	document.getElementById("factdisplay").innerHTML = "Rabbits can't puke.";
 	document.getElementById("d").style.color = "#FF595E";
+	document.getElementById("buttons").style.borderColor = "#0096C7";
 	document.getElementById("main").style.backgroundColor = "#FFCA3A";
 	document.getElementById("factdisplay").style.borderColor = "#1982C4";
 	document.getElementById("main").style.borderColor = "#6A4C93";
@@ -56,6 +60,7 @@ var fact5 = document.querySelector('#buttons').e.addEventListener("click",ShowFa
 function ShowFact5() {
 	document.getElementById("factdisplay").innerHTML = "Pringles are dehydrated potato flakes pressed into their signature parabolic shape. That's why they're less greasy.";
 	document.getElementById("e").style.color = "#006D77";
+	document.getElementById("buttons").style.borderColor = "#E5989B";
 	document.getElementById("main").style.backgroundColor = "#DDE5B6";
 	document.getElementById("factdisplay").style.borderColor = "#A98467";
 	document.getElementById("main").style.borderColor = "#6C584C";
