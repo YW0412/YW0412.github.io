@@ -1,0 +1,44 @@
+main{
+	border: 5px solid black;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows: 100px auto;
+}
+
+#factdisplay{
+	border: 5px solid #BC6C25;
+}
+
+form{
+	border: 2px solid #606C38;
+	grid-gap: 10px;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input{
+	color: #283618;
+	background-color: #FEFAE0;
+	border: 1px dashed #DDA15E;
+	border-radius: 20px;
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+input:hover{
+	background-color: aqua;
+	font-style: italic;
+}
+
+img{
+	height: 400px;
+	padding: 10px;
+}
